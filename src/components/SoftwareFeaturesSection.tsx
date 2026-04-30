@@ -6,7 +6,7 @@ import { useTheme } from "@/contexts/ThemeContext";
 const features = [
   { icon: Edit3, label: "Whiteboard", desc: "Infinite canvas whiteboarding with smart shapes and pen pressure." },
   { icon: Share2, label: "Screen Share", desc: "Wireless casting from any device in under 2 seconds." },
-  { icon: Layers, label: "Multi-Window", desc: "Run 4 apps side-by-side without any external hardware." },
+  { icon: Layers, label: "Dual-Window", desc: "Run dual-apps side-by-side without any external hardware." },
   { icon: PenTool, label: "Annotation", desc: "Annotate over any content and save notes to cloud instantly." },
   { icon: Cloud, label: "Cloud Storage", desc: "Auto-sync to Google Drive, OneDrive, or Dropbox." },
 ];

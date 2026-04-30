@@ -1,4 +1,5 @@
 import { Zap, Twitter, Linkedin, Youtube, Instagram, Mail, Phone, MapPin } from "lucide-react";
+import MaxureLogo from "./MaxureLogo";
 
 const footerLinks = [
   {
@@ -45,11 +46,8 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="col-span-2">
             {/* Logo */}
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#00D4FF] to-[#2D4AFF] flex items-center justify-center">
-                <Zap size={16} className="text-white" fill="white" />
-              </div>
-              <span className="font-syne font-bold text-xl text-white tracking-tight">MAXURE</span>
+            <div className="mb-4">
+              <MaxureLogo height={32} />
             </div>
             <p className="font-jakarta text-sm text-[#A8B4D8] leading-relaxed mb-6 max-w-xs">
               Redefining interactive displays for education and enterprise. Precision-engineered for the spaces that shape minds and decisions.
@@ -58,8 +56,8 @@ export default function Footer() {
             {/* Contact info */}
             <div className="flex flex-col gap-2 mb-6">
               {[
-                { icon: Mail, text: "sales@maxure.in" },
-                { icon: Phone, text: "+91 98765 43210" },
+                { icon: Mail, text: "info@maxure.in" },
+                { icon: Phone, text: "+91 97179 92260" },
                 { icon: MapPin, text: "New Delhi, India" },
               ].map((item) => (
                 <div key={item.text} className="flex items-center gap-2">

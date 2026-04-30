@@ -9,7 +9,7 @@ import SoftwareFeaturesSection from "./SoftwareFeaturesSection";
 import PanelSizesSection from "./PanelSizesSection";
 import BuiltForEverySpaceSection from "./BuiltForEverySpaceSection";
 import SpecsAccordion from "./SpecsAccordion";
-import ClientLogosMarquee from "./ClientLogosMarquee";
+// import ClientLogosMarquee from "./ClientLogosMarquee";
 import DemoRequestSection from "./DemoRequestSection";
 import Footer from "./Footer";
 
@@ -27,7 +27,7 @@ function Home() {
       <PanelSizesSection />
       <BuiltForEverySpaceSection />
       <SpecsAccordion />
-      <ClientLogosMarquee />
+      {/* <ClientLogosMarquee /> */}
       <DemoRequestSection />
       <Footer />
     </div>

@@ -26,8 +26,8 @@ const features = [
   },
   {
     icon: Layers,
-    title: "Multi-Window Mode",
-    description: "Split-screen and multi-task with up to 4 apps simultaneously.",
+    title: "Dual-Window Mode",
+    description: "Split-screen and multi-task with up to dual apps simultaneously.",
   },
   {
     icon: Shield,

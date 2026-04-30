@@ -144,7 +144,7 @@ export default function BuiltForEverySpaceSection() {
           </motion.div>
 
           {/* Horizontal scroll strip */}
-          <div className="flex gap-5 overflow-x-auto pb-4" style={{ scrollbarWidth: "none" }}>
+          <div className="flex gap-5 pb-4" style={{ scrollbarWidth: "none" }}>
             {accessories.map((acc, i) => (
               <motion.div
                 key={acc.label}

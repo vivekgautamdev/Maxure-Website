@@ -4,13 +4,13 @@ import { ArrowRight } from "lucide-react";
 import { useTheme } from "@/contexts/ThemeContext";
 
 const sizes = [
-  {
-    inch: '55"',
-    label: "Compact",
-    ideal: "Small classrooms, meeting rooms",
-    specs: { res: "4K UHD", touch: "40-pt", brightness: "350 nit" },
-    accent: "#00D4FF",
-  },
+  // {
+  //   inch: '55"',
+  //   label: "Compact",
+  //   ideal: "Small classrooms, meeting rooms",
+  //   specs: { res: "4K UHD", touch: "40-pt", brightness: "350 nit" },
+  //   accent: "#00D4FF",
+  // },
   {
     inch: '65"',
     label: "Standard",
@@ -33,13 +33,13 @@ const sizes = [
     specs: { res: "4K UHD", touch: "40-pt", brightness: "420 nit" },
     accent: "#2D4AFF",
   },
-  {
-    inch: '98"',
-    label: "Flagship",
-    ideal: "Auditoriums, large venues",
-    specs: { res: "4K UHD", touch: "40-pt", brightness: "450 nit" },
-    accent: "#00D4FF",
-  },
+  // {
+  //   inch: '98"',
+  //   label: "Flagship",
+  //   ideal: "Auditoriums, large venues",
+  //   specs: { res: "4K UHD", touch: "40-pt", brightness: "450 nit" },
+  //   accent: "#00D4FF",
+  // },
 ];
 
 export default function PanelSizesSection() {
@@ -80,7 +80,7 @@ export default function PanelSizesSection() {
         </motion.div>
 
         {/* Size Cards — isolated container to prevent bg bleed on hover */}
-        <div className="flex gap-5 overflow-x-auto pb-6" style={{ scrollbarWidth: "none" }}>
+        <div className="flex justify-center items-center gap-5 pb-6" style={{ scrollbarWidth: "none" }}>
           {sizes.map((size, i) => (
             <motion.div
               key={size.inch}
