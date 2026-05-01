@@ -1,5 +1,5 @@
 import { useTheme } from "@/contexts/ThemeContext";
-import logo from "./logo.svg";
+import logo from "public/logo.svg";
 
 interface MaxureLogoProps {
   className?: string;
